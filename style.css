@@ -1,4 +1,30 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    margin: auto
+}
+.header {
+    background-color: #096a2e;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 48px;
+}
+ul {
+    list-style: none;
+    gap: 64px;
+    font-size: 20px;
+    font-weight: 550;
+    display: flex;
+    flex-wrap: wrap;
+}
+a {
+    text-decoration: none;
+    color: white
+}
 .logo {
-    width: 20%;
-    height: auto
+    width: auto;
+    height: 100px;    
 }
