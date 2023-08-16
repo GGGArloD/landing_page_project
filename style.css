@@ -2,15 +2,15 @@ body {
     font-family: 'Courier New', Courier, monospace;
     display: flex;
     flex-direction: column;
-    width: 65%;
-    margin: auto
+    width: 75%;
+    margin: auto;
 }
 .header {
     background-color: #096a2e;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 8px 48px;
+    padding: 16px 80px;
 }
 ul {
     list-style: none;
@@ -26,5 +26,48 @@ a {
 }
 .logo {
     width: auto;
-    height: 100px;    
+    height: 144px;    
+}
+.top_section {
+    display: flex;
+    background-color: #cdcdcd;
+    color: white;
+    padding: 80px;
+    gap: 40px
+}
+.top_left_part {
+    display: flex;
+    flex-direction: column;
+}
+.top_left_title {
+    font-size: 32px;
+    align-self:center;
+    margin: 0;
+    color: #096a2e
+}
+.top_left_text {
+    color: black
+}
+.top_right_part {
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid #096a2e;
+    border-radius: 16px
+}
+.top_left_button {
+    align-self: flex-start;
+    padding: 8px 24px;
+    border-radius: 12px;
+    border-color: #096a2e;
+    border-style: solid;
+    color: #cdcdcd;
+    background-color: #096a2e;
+    font-size: 16px;
+    font-weight: 600
+}
+.top_left_button:hover {
+    color: #096a2e;
+    background-color: #cdcdcd;
+    border-style: solid;
+    border-color: #096a2e
 }
