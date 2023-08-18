@@ -2,11 +2,11 @@ body {
     font-family: 'Courier New', Courier, monospace;
     display: flex;
     flex-direction: column;
-    width: 75%;
+    width: 80%;
     margin: auto;
 }
 .header {
-    background-color: #096a2e;
+    background-color: #0C5A28;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -30,7 +30,7 @@ a {
 }
 .top_section {
     display: flex;
-    background-color: #cdcdcd;
+    background-color: #BAB254;
     color: white;
     padding: 80px;
     gap: 40px
@@ -38,12 +38,12 @@ a {
 .top_left_part {
     display: flex;
     flex-direction: column;
+    width: 50%
 }
 .top_left_title {
     font-size: 32px;
-    align-self:center;
     margin: 0;
-    color: #096a2e
+    color: black
 }
 .top_left_text {
     color: black
@@ -51,23 +51,34 @@ a {
 .top_right_part {
     display: flex;
     flex-wrap: wrap;
-    border: 2px solid #096a2e;
-    border-radius: 16px
+    border: 2px solid #0C5A28;
+    width: 50%;
+    min-width: 144px
 }
+.top_right_img {
+    width: 50%;
+    min-width: 144px;
+    height: auto;
+    flex-shrink: 0;
+    flex-grow: 0
+}
+
 .top_left_button {
     align-self: flex-start;
+    margin-top: auto;
+    margin-bottom: auto;
     padding: 8px 24px;
     border-radius: 12px;
-    border-color: #096a2e;
+    border-color: #0C5A28;
     border-style: solid;
-    color: #cdcdcd;
-    background-color: #096a2e;
+    color: #BAB254;
+    background-color: #0C5A28;
     font-size: 16px;
     font-weight: 600
 }
 .top_left_button:hover {
-    color: #096a2e;
-    background-color: #cdcdcd;
+    color: #0C5A28;
+    background-color: #BAB254;
     border-style: solid;
-    border-color: #096a2e
+    border-color: #0C5A28
 }
