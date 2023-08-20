@@ -1,8 +1,6 @@
 body {
-    font-family: 'Courier New', Courier, monospace;
-    display: flex;
-    flex-direction: column;
-    width: 90%;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    width: 80%;
     margin: auto;
 }
 .header {
@@ -15,7 +13,7 @@ body {
 ul {
     list-style: none;
     gap: 64px;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 550;
     display: flex;
     flex-wrap: wrap;
@@ -40,25 +38,47 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    width: 50%
+    width: 50%;
 }
 .top_left_title {
-    font-size: 28px;
+    font-size: 32px;
     font-weight: 700;
     color: black
 }
 .top_left_text {
     color: black;
-    font-size: 18px
+    font-size: 22px;
 }
 .top_right_part {
     display: flex;
     flex-wrap: wrap;
-    width: 40%;
+    width: 100%;
     max-width: 480px
 }
 .top_right_img {
+    box-sizing: border-box;
     width: 50%;
+    padding: 8px;
+}
+.car_01 {
+    border-right: 3px solid #0C5A28;
+    border-bottom: 3px solid #0C5A28;
+    border-bottom-right-radius: 25%;
+}
+.car_02 {
+    border-left: 3px solid #0C5A28;
+    border-bottom: 3px solid #0C5A28;
+    border-bottom-left-radius: 25%;
+}
+.car_03 {
+    border-right: 3px solid #0C5A28;
+    border-top: 3px solid #0C5A28;
+    border-top-right-radius: 25%;
+}
+.car_04 {
+    border-left: 3px solid #0C5A28;
+    border-top: 3px solid #0C5A28;
+    border-top-left-radius: 25%;
 }
 .portfolio {
     border: 3px solid #BAB254;
@@ -70,7 +90,7 @@ a {
     border-radius: 25px;
     background-color: black;
     color: #BAB254;
-    padding: 8px;
+    padding: 8px
 }
 .middle_section {
     background-color: black;
@@ -88,7 +108,6 @@ a {
     border: 3px solid black;
     border-radius: 25px;
     padding: 8px;
-    margin: 8px
 }
 .pro_tips:hover {
     border: 3px solid #BAB254;
@@ -96,7 +115,6 @@ a {
     background-color: #BAB254;
     color: black;
     padding: 8px;
-    margin: 8px
 }
 .middle_pics {
     display: flex;
