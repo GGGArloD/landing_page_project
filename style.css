@@ -20,7 +20,13 @@ ul {
 }
 a {
     text-decoration: none;
-    color: white
+    color: white;
+    border-radius: 25px;
+    padding: 16px
+}
+a:hover {
+    background-color: white;
+    color: #0C5A28
 }
 .logo {
     width: auto;
@@ -58,27 +64,30 @@ a {
 .top_right_img {
     box-sizing: border-box;
     width: 50%;
-    padding: 8px;
 }
 .car_01 {
     border-right: 3px solid #0C5A28;
     border-bottom: 3px solid #0C5A28;
-    border-bottom-right-radius: 25%;
+    border-bottom-right-radius: 10%;
+    padding: 0px 8px 8px 0px
 }
 .car_02 {
     border-left: 3px solid #0C5A28;
     border-bottom: 3px solid #0C5A28;
-    border-bottom-left-radius: 25%;
+    border-bottom-left-radius: 10%;
+    padding: 0px 0px 8px 8px
 }
 .car_03 {
     border-right: 3px solid #0C5A28;
     border-top: 3px solid #0C5A28;
-    border-top-right-radius: 25%;
+    border-top-right-radius: 10%;
+    padding: 8px 8px 0px 0px
 }
 .car_04 {
     border-left: 3px solid #0C5A28;
     border-top: 3px solid #0C5A28;
-    border-top-left-radius: 25%;
+    border-top-left-radius: 10%;
+    padding: 8px 0px 0px 8px
 }
 .portfolio {
     border: 3px solid #BAB254;
