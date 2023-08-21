@@ -194,3 +194,16 @@ a:hover {
 .quote {
     font-size: 40px
 }
+.test_title {
+    height: 36px;
+    font-size: 32px;
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+    gap: 16px;
+    padding-bottom: 80px;
+}
+.yellow {
+    color: #BAB254;
+    padding-top: 4px
+}
