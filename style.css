@@ -151,7 +151,7 @@ a:hover {
 }
 .test img {
     width: auto;
-    height: 200px;
+    height: 184px;
     border-radius: 50%;
 }
 .test_text {
@@ -171,6 +171,7 @@ a:hover {
 .test_text h3 {
     font-size: 18px;
     align-self: flex-end;
+    margin: 0
 }
 .quote {
     font-size: 40px
@@ -187,4 +188,33 @@ a:hover {
 .yellow {
     color: #BAB254;
     padding-top: 4px
+}
+.about {
+    display: flex;
+    justify-content: center;
+    background-color: #BAB254;
+    padding: 40px;
+    gap: 40px
+}
+.about img {
+    height: 160px;
+    width: auto
+}
+.left_about {
+    display: flex;
+    flex-direction: column;
+}
+.left_about h1 {
+    font-size: 32px;
+    color: #0C5A28
+}
+.footer {
+    height: 80px;
+    background-color: #0C5A28;
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
