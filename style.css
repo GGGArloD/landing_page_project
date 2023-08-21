@@ -62,7 +62,7 @@ a:hover {
     width: 100%;
     max-width: 480px
 }
-.top_right_img {
+.top_right_part img {
     box-sizing: border-box;
     width: 50%;
 }
@@ -128,7 +128,6 @@ a:hover {
 .mp01 {
     display: flex;
     flex-direction: column;
-    
 }
 .mp02 {
     display: flex;
@@ -152,4 +151,34 @@ a:hover {
     color: #BAB254;
     font-size: 18px;
     border-left: 4px solid #0C5A28;
+}
+.testimonials_background {
+    background-color: #0C5A28;
+    padding: 40px
+}
+.testimonials {
+    padding: 40px;
+    background-color: #0C5A28
+}
+.box_01 {
+    display: flex;
+    justify-content: flex-start;
+}
+.box_02 {
+    display: flex;
+    justify-content: center;
+}
+.box_03 {
+    display: flex;
+    justify-content: flex-end;
+}
+.test img {
+    width: 10%;
+    height: auto;
+    border-radius: 50%
+}
+.test_text {
+    display: flex;
+    flex-direction: column;
+    width: 25%
 }
