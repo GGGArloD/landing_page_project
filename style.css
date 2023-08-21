@@ -38,7 +38,7 @@ a:hover {
     justify-content: space-between;
     background-color: #BAB254;
     color: white;
-    padding: 80px;
+    padding: 40px 80px;
 }
 .top_left_part {
     display: flex;
@@ -89,7 +89,7 @@ a:hover {
 }
 .middle_section {
     background-color: black;
-    padding: 80px
+    padding: 40px 80px
 }
 .middle_title {
     display: flex;
@@ -134,7 +134,7 @@ a:hover {
 }
 .testimonials {
     box-sizing: border-box;
-    padding: 80px;
+    padding: 40px 80px;
     background: linear-gradient(35deg, black 5%, #BAB254 10%, #0C5A28 20%, #0C5A28 80%, #BAB254 90%, black 95%, black 100%);
 }
 .box_01 {
@@ -151,7 +151,7 @@ a:hover {
 }
 .test img {
     width: auto;
-    height: 216px;
+    height: 200px;
     border-radius: 50%;
 }
 .test_text {
