@@ -49,7 +49,8 @@ a:hover {
 .top_left_title {
     font-size: 32px;
     font-weight: 700;
-    color: black
+    color: black;
+    margin: 0
 }
 .top_left_text {
     color: black;
@@ -87,16 +88,13 @@ a:hover {
     border-top-left-radius: 15%;
 }
 .portfolio {
-    border: 3px solid #BAB254;
     border-radius: 25px;
-    padding: 8px;
+    padding: 4px
 }
 .portfolio:hover {
-    border: 3px solid black;
     border-radius: 25px;
     background-color: black;
     color: #BAB254;
-    padding: 8px
 }
 .middle_section {
     background-color: black;
@@ -106,25 +104,26 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0;
     font-size: 28px;
     font-weight: 700;
     color: #BAB254
 }
 .pro_tips {
-    border: 3px solid black;
     border-radius: 25px;
-    padding: 8px;
+    padding: 4px;
+    margin-left: 4px
 }
 .pro_tips:hover {
-    border: 3px solid #BAB254;
     border-radius: 25px;
     background-color: #BAB254;
     color: black;
-    padding: 8px;
+    padding: 4px;
 }
 .middle_pics {
     display: flex;
     justify-content: space-between;
+    margin-top: 60px
 }
 .mp01 {
     display: flex;
