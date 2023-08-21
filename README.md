@@ -3,10 +3,12 @@ TOP - Landing Page Project
 
 The Odin Project - Landing Page Project aims at creating a beautiful and responsive webpage, using materials learnt in the lessons so far, including but not limited to: 
 *html / css
-*all sorts of html containers, lists, buttons, paragraphs, headers, etc
+*all sorts of html containers, lists, paragraphs, headers, etc
 *font colors and sizing
 *padding / borders / margins
 *flex attributes
+
+The theme I chose for the project is my 7 yr old boy Arlo and his passion for building all sorts of things in Lego bricks!
 
 Thank you for taking a look at it ^^
 
@@ -22,4 +24,6 @@ lego_manual: Image by <a href="https://pixabay.com/users/4216928-4216928/?utm_so
 lego_cleaner.jpg: Image by <a href="https://pixabay.com/users/blickpixel-52945/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=568039">Michael Schwarzenberger</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=568039">Pixabay</a>
 
 lego_help.jpg: Image by <a href="https://pixabay.com/users/aitoff-388338/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1351022">Andrew Martin</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1351022">Pixabay</a>
+
+Every other picture, including the logo, are mine.
 
