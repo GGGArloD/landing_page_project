@@ -87,15 +87,6 @@ a:hover {
     border-top: 4px solid #0C5A28;
     border-top-left-radius: 15%;
 }
-.portfolio {
-    border-radius: 25px;
-    padding: 4px
-}
-.portfolio:hover {
-    border-radius: 25px;
-    background-color: black;
-    color: #BAB254;
-}
 .middle_section {
     background-color: black;
     padding: 80px
@@ -108,17 +99,6 @@ a:hover {
     font-size: 32px;
     font-weight: 700;
     color: #BAB254
-}
-.pro_tips {
-    border-radius: 25px;
-    padding: 4px;
-    margin-left: 4px
-}
-.pro_tips:hover {
-    border-radius: 25px;
-    background-color: #BAB254;
-    color: black;
-    padding: 4px;
 }
 .middle_pics {
     display: flex;
