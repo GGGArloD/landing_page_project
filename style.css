@@ -152,13 +152,10 @@ a:hover {
     font-size: 18px;
     border-left: 4px solid #0C5A28;
 }
-.testimonials_background {
-    background-color: #0C5A28;
-    padding: 40px
-}
 .testimonials {
-    padding: 40px;
-    background-color: #0C5A28
+    box-sizing: border-box;
+    padding: 80px;
+    background: linear-gradient(35deg, black 5%, #BAB254 10%, #0C5A28 20%, #0C5A28 80%, #BAB254 90%, black 95%, black 100%);
 }
 .box_01 {
     display: flex;
@@ -173,12 +170,27 @@ a:hover {
     justify-content: flex-end;
 }
 .test img {
-    width: 10%;
+    width: 148px;
     height: auto;
-    border-radius: 50%
+    border-radius: 50%;
 }
 .test_text {
     display: flex;
     flex-direction: column;
-    width: 25%
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+    padding: 32px;
+}
+.test_text p {
+    font-style: italic;
+    font-size: 24px;
+    color: white
+}
+.test_text h3 {
+    font-size: 18px;
+    align-self: flex-end;
+}
+.quote {
+    font-size: 40px
 }
