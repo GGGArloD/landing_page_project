@@ -18,7 +18,7 @@ ul {
     display: flex;
     flex-wrap: wrap;
 }
-a {
+.header_links a {
     text-decoration: none;
     color: white;
     border-radius: 25px;
@@ -74,8 +74,7 @@ a:hover {
 .car_02 {
     border-left: 4px solid #0C5A28;
     border-bottom: 4px solid #0C5A28;
-    border-bottom-left-radius: 15%;
-    
+    border-bottom-left-radius: 15%;   
 }
 .car_03 {
     border-right: 4px solid #0C5A28;
@@ -174,7 +173,8 @@ a:hover {
     margin: 0
 }
 .quote {
-    font-size: 40px
+    font-size: 48px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive
 }
 .test_title {
     height: 36px;
@@ -187,34 +187,72 @@ a:hover {
 }
 .yellow {
     color: #BAB254;
-    padding-top: 4px
+    padding-top: 8px
 }
 .about {
     display: flex;
     justify-content: center;
     background-color: #BAB254;
-    padding: 40px;
-    gap: 40px
+    padding: 40px 80px;
+    gap: 48px
 }
 .about img {
     height: 160px;
-    width: auto
+    width: auto;
+    border-radius: 10px;
 }
 .left_about {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 .left_about h1 {
     font-size: 32px;
     color: #0C5A28
 }
+.about_right_section p {
+    padding: 20px 0px
+}
+.button {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border: 2px solid black;
+    font-size: 32px;
+    font-weight: 700;
+    background-color: #BAB254;
+    color: #BAB254
+}
+.first:hover, .second:hover, .third:hover, .fourth:hover, .fifth:hover {
+    background-color: #fe1d1d;
+    border-color: #fe1d1d;
+    color: black
+}
+.sixth {
+    background-color: #BAB254;
+    border-color: #BAB254
+}
+.sixth:hover {
+    background-color: #0C5A28;
+    color: black;
+    border-color: #0C5A28
+}
+.about_top {
+    text-decoration: none;
+    color: #BAB254;
+}
+.about_top:hover {
+    background-color: #0C5A28;
+    color: black
+}
 .footer {
     height: 80px;
     background-color: #0C5A28;
     color: white;
-    font-size: 24px;
+    font-size: 16px;
     font-weight: 700;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
+    padding-right: 80px
 }
