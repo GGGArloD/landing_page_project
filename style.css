@@ -131,6 +131,15 @@ a:hover {
     font-size: 18px;
     border-left: 4px solid #0C5A28;
 }
+.numbers {
+    font-size: 28px;
+    font-weight: 700;
+    color: #0C5A28;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 16px
+}
 .testimonials {
     box-sizing: border-box;
     padding: 40px 80px;
@@ -211,11 +220,11 @@ a:hover {
     color: #0C5A28
 }
 .about_right_section p {
-    padding: 20px 0px
+    padding: 20px 2px
 }
 .button {
-    width: 48px;
-    height: 48px;
+    width: 56px;
+    height: 56px;
     border-radius: 50%;
     border: 2px solid black;
     font-size: 32px;
@@ -234,7 +243,6 @@ a:hover {
 }
 .sixth:hover {
     background-color: #0C5A28;
-    color: black;
     border-color: #0C5A28
 }
 .about_top {
@@ -243,7 +251,7 @@ a:hover {
 }
 .about_top:hover {
     background-color: #0C5A28;
-    color: black
+    color: #BAB254
 }
 .footer {
     height: 80px;
